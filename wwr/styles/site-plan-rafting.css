@@ -1,25 +1,25 @@
-@import url(https://fonts.google.com/specimen/Instrument+Serif?category=Serif);
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 :root {
---primary-color: #05B2DC
---secondary-color: #A1869E
---accent1-color: #F2AF29
---accent2-color: #2B3A67
+--primary-color: #05B2DC;
+--secondary-color: #A1869E;
+--accent1-color: #F2AF29;
+--accent2-color: #2B3A67;
 
---heading-font: 'arvo',serif
---heading-font: 'arvo',serif
+--heading-font: 'arvo',serif;
+--paragraph-font: 'arvo',serif;
 
---nav-background-color: #xxxxxx
---nav-link-color: #xxxxxx
---nav-hover-link-color: #xxxxxx
---nav-hover-background-color: #xxxxxx
+--nav-background-color: #xxxxxx;
+--nav-link-color: #xxxxxx;
+--nav-hover-link-color: #xxxxxx;
+--nav-hover-background-color: #xxxxxx;
 }
 body {
-    font-family: var('arvo',serif);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding:  20px; 
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: var('arvo',serif);
+    font-family: var(--heading-font);
     color: var(--primary-color);
 }
 header {
