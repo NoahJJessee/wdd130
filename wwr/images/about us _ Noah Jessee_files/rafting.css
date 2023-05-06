@@ -8,10 +8,10 @@
 --heading-font: 'arvo',serif;
 --paragraph-font: 'arvo',serif;
 
---nav-background-color: #05b2dc;
---nav-link-color: black;
---nav-hover-link-color: #f2af29;
---nav-hover-background-color: black;
+--nav-background-color: #xxxxxx;
+--nav-link-color: #xxxxxx;
+--nav-hover-link-color: #xxxxxx;
+--nav-hover-background-color: #xxxxxx;
 }
 body {
     font-family: var(--paragraph-font);
@@ -26,8 +26,16 @@ header {
     padding: 20px;
     background-color: var(--accent1-color);
 }
+header img{
+    width: 100px;
+    height: auto;
+}
 p {
     padding: 25px;
+}
+main img {
+    width: 400px;
+    height: auto;
 }
 nav {
     background-color: var(--nav-background-color);
@@ -41,9 +49,28 @@ nav a {
     padding: 1rem;
 }
 nav a:link, nav a:visited {
-    color: navy;
+    color: var();
 }
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-colo)
+}
+footer img {
+    width: 1cm;
+    height: 1cm;
+}
+div.hero {
+position: relative;
+
+}
+div.hero h1 {
+    position: absolute;
+}
+div.hero article {
+    position: absolute;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
 }

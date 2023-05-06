@@ -26,8 +26,16 @@ header {
     padding: 20px;
     background-color: var(--accent1-color);
 }
+header img{
+    width: 100px;
+    height: auto;
+}
 p {
     padding: 25px;
+}
+main img {
+    width: 400px;
+    height: auto;
 }
 nav {
     background-color: var(--nav-background-color);
@@ -45,5 +53,37 @@ nav a:link, nav a:visited {
 }
 nav a:hover {
     color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-colo)
+    background-color: var(--nav-hover-background-color)
+}
+footer img {
+    width: 1cm;
+    height: 1cm;
+}
+div.hero {
+position: relative;
+
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+div.hero h1 {
+    position: absolute;
+    background-color: whitesmoke;
+    top: 8px;
+    padding: 20px;
+    text-align: center;
+}
+div.hero article {
+    position: absolute;
+    background-color: #05B2DC;
+    bottom: 200px;
+    padding: 10px;
+}
+div.hero article img {
+    float: right;
+    width: 150px;
+    height: auto;
+    padding: 10px;
 }
