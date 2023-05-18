@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+:root {
+--primary-color: #05B2DC;
+--secondary-color: #A1869E;
+--accent1-color: #F2AF29;
+--accent2-color: #2B3A67;
+
+--heading-font: 'arvo',serif;
+--paragraph-font: 'arvo',serif;
+
+--nav-background-color: #05b2dc;
+--nav-link-color: black;
+--nav-hover-link-color: #f2af29;
+--nav-hover-background-color: black;
+}
+fieldset {
+    display: grid;
+    padding: 20px;
+    background-color: bisque;
+}
+h3 {
+    color: navy;
+}
+button {
+    
+    margin: 20px;
+    padding: 10px 100px;
+    background-color: var(--nav-background-color);
+}
