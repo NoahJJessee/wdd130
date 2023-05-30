@@ -211,3 +211,74 @@ fieldset {
     padding: 10px;
     margin-left: 45px;
 }
+.tripop {
+    font-size: 50pt;
+    margin-left: 240px;
+}
+.booktrip {
+    padding: 40px;
+    margin: 10px;
+}
+.booktrip a{
+   color: #05b2dc;
+   text-align: center;
+   text-decoration: none;
+    font-size: 50pt;
+padding: 10px;
+border: solid #05B2DC;
+margin-left: 80px;
+}
+.booktrip a:hover{
+    background-color: black;
+}
+.lazy {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+}
+.lazy img {
+    grid-column: 1;
+}
+.lazy p {
+    grid-column: 2;
+}
+.bouncing {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: antiquewhite;
+        padding: 10px;
+        margin: 10px;
+}
+.bouncing img {
+    grid-column: 2;
+}
+.bouncing p {
+    grid-column: 1;
+}
+.challenger {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+}
+.challenger img {
+    grid-column: 1;
+}
+.challenger p {
+    grid-column: 2;
+}
+table {
+    border: 2px solid black;
+    padding: 20px;
+    border-collapse: collapse;
+    margin-left: 150px;
+}
+table td ,th{
+    border-bottom: solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    padding: 20px 30px;
+}
